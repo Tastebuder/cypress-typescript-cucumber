@@ -1,0 +1,29 @@
+{
+  "include": [
+    "cypress/e2e/**/*.ts",
+    "cypress/**/*.ts",
+  ],
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "paths": {
+    },
+    "allowJs": true,
+    "strict": true,
+    /* Enable all strict type-checking options. */
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "types": [
+      "cypress",
+      "@badeball/cypress-cucumber-preprocessor",
+      "node",
+      "@testing-library/cypress"
+    ]
+  }
+}
